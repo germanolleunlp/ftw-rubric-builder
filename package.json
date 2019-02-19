@@ -1,0 +1,75 @@
+{
+  "name": "ftw-rubric-builder",
+  "version": "1.0.0",
+  "description": "Finetune Writing Rubric Builder",
+  "main": "build/ftw-rubric-builder.js",
+  "module": "build/ftw-rubric-builder.es.js",
+  "jsnext:main": "build/ftw-rubric-builder.es.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w",
+    "start": "npm run watch",
+    "test": "jest --no-cache"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/germanolleunlp/ftw-rubric-builder.git"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "umd",
+    "rubric"
+  ],
+  "author": "German Olle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/germanolleunlp/ftw-rubric-builder/issues"
+  },
+  "homepage": "https://github.com/germanolleunlp/ftw-rubric-builder#readme",
+  "dependencies": {},
+  "peerDependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/plugin-proposal-class-properties": "^7.3.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.3.2",
+    "@babel/plugin-proposal-optional-chaining": "^7.2.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "@svgr/rollup": "^4.1.0",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
+    "babel-preset-react-app": "^7.0.1",
+    "classnames": "^2.2.6",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.9.1",
+    "enzyme-to-json": "^3.3.5",
+    "jest": "^24.1.0",
+    "jest-css-modules": "^1.1.0",
+    "node-sass": "^4.11.0",
+    "postcss-scss": "^2.0.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "react-test-renderer": "^16.8.2",
+    "rollup": "^1.2.2",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "rollup-plugin-peer-deps-external": "^2.2.0",
+    "rollup-plugin-postcss": "^2.0.3",
+    "rollup-plugin-replace": "^2.1.0",
+    "rollup-plugin-terser": "^4.0.4",
+    "rollup-plugin-url": "^2.2.0",
+    "rollup-watch": "^4.3.1"
+  }
+}
